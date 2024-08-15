@@ -24,7 +24,7 @@ To run this project locally, you'll need to have Python installed. Follow these 
 
 1. **Clone the Repository:**
 ```bash
-git clone https://github.com/Vaibhav-kesarwani/Text_Emotion_Classifier
+git clone https://github.com/Vaibhav-kesarwani/Text_Emotion_Classifier.git
 cd Text_Emotion_Classifier
 ```
 
