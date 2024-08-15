@@ -24,7 +24,7 @@ To run this project locally, you'll need to have Python installed. Follow these 
 
 1. **Clone the Repository:**
 ```bash
-git clone https://github.com/Vaibhav-kesarwani/Text_Emotion_Classifier
+git clone https://github.com/Vaibhav-kesarwani/Text_Emotion_Classifier.git
 cd Text_Emotion_Classifier
 ```
 
@@ -50,14 +50,14 @@ Ensure that your `train.txt` file is in the root directory. This file should con
 2. **Run the Script:**
 Execute the main script to load the data and perform emotion classification:
 ```bash
-python main.py
+python main.ipynb
 ```
 
 3. **Output:**
 The script will print the first few rows of the dataset to the console, showing the text samples and their associated emotion labels.
 
 ## Model Training
-The model training is performed within the `main.py` script, which processes the text data, tokenizes it, and trains a Sequential model using Keras. You can modify the model architecture, training parameters, or the data processing steps within this script.
+The model training is performed within the `main.ipynb` script, which processes the text data, tokenizes it, and trains a Sequential model using Keras. You can modify the model architecture, training parameters, or the data processing steps within this script.
 ```python
 # Define the model
 model = Sequential()
@@ -71,7 +71,7 @@ model.fit(xtrain, ytrain, epochs=10, batch_size=32, validation_data=(xtest, ytes
 ```
 
 ## Prediction
-After training the model, you can use it to predict emotions from new text inputs. Implement the prediction logic in a separate script or extend `main.py` to include a prediction function.
+After training the model, you can use it to predict emotions from new text inputs. Implement the prediction logic in a separate script or extend `main.ipynb` to include a prediction function.
 
 ## File Structure
 Here is an overview of the project directory structure:
