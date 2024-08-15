@@ -71,7 +71,7 @@ model.fit(xtrain, ytrain, epochs=10, batch_size=32, validation_data=(xtest, ytes
 ```
 
 ## Prediction
-After training the model, you can use it to predict emotions from new text inputs. Implement the prediction logic in a separate script or extend `main.py` to include a prediction function.
+After training the model, you can use it to predict emotions from new text inputs. Implement the prediction logic in a separate script or extend `main.ipynb` to include a prediction function.
 
 ## File Structure
 Here is an overview of the project directory structure:
